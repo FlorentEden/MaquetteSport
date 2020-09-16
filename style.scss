@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 .navbar{
   background-color: #252525;
@@ -222,6 +223,103 @@
   height: 42px !important;
   background-color: #363636 !important;
 }
+
+.description-ball{
+  background-color: #252525;
+}
+
+.description-ball-flex{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.ball > h5{
+  margin-top: 30px;
+  color: #636363;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ball > p{
+  margin-top: 15px;
+  max-width: 262px;
+  color: #555555;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #252525;
+}
+
+.ball{
+  cursor: pointer;
+}
+
+.ball:hover p {
+  transition: 0.5s;
+  color: #ffffff;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e5493a;
+}
+
+.ball:hover h5 {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #e5493a;
+}
+
+.ball:hover i {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #e5493a;
+}
+
+.ball:hover div {
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid #e5493a;
+}
+
+.circle-ball{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid #363636;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle-ball > i{
+  width: 100%;
+  text-align: center;
+  color: #636363;
+  font-size: 45px;
+}
+
+.Recent-Work{
+  background-color: #202020;
+  height: 780px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
